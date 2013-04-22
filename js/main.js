@@ -1,6 +1,6 @@
 var election = {}; //Trying not to pollute the global namespace : )
 election.keyArray = ["Population", "MedianAge", "NonWhitePct", "PctWin", "MarginOvictory", "ObamaWin", "RomneyWin"];
-election.expressed = election.keyArray[3]; // ****initial attribute SET BACK TO ZERO CHRIS*********
+election.expressed = election.keyArray[0]; // ****initial attribute *********
 election.obamaWon = election.keyArray[5];
 
 //begin script when window loads
