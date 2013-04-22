@@ -11,7 +11,7 @@ function initialize(){
   setMap();
 };
 
-d3.selection.prototype.moveToFront = function() {
+d3.selection.prototype.moveToFront = function() {  //function will send appropriate layer to front on mouseout
 	return this.each(function(){
 	this.parentNode.appendChild(this);
 	});
