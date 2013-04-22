@@ -24,7 +24,7 @@ function setMap(){
 	var height = 450;
 	
 	//create a new svg element with the above dimensions
-	var map = d3.select("#map-container")	//cannot seem to put it in container
+	var map = d3.select("#map-container")	//append the map to this div
 				.append("svg")
 				.attr("width", width)
 				.attr("height", height);
