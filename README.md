@@ -7,4 +7,4 @@ The code herein describes how to create a "Value by Alpha" map. A thematic mappi
 
 The biggest take away is that you must create a basemap, then overlay the basemap using "fill-opacity" rather than rgba or rgb.
 
-View example:  https://mywebspace.wisc.edu/ccantey/web/links/choropleth/index.html
+View example:  http://geo-odyssey.com/links/choropleth/index.html
